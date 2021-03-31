@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -65,8 +66,6 @@ h3 {
   margin: 40px 20px;
   height: 4px;
   width: 90%;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .progress {
@@ -75,8 +74,6 @@ h3 {
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .duration-wrapper {
@@ -84,8 +81,6 @@ h3 {
   top: -25px;
   display: flex;
   justify-content: space-between;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
 /* Controls */
