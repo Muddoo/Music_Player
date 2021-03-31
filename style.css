@@ -58,12 +58,14 @@ h3 {
 
 /* Progress */
 .progress-container {
+  position: relative;
   background: #fff;
   border-radius: 5px;
   cursor: pointer;
   margin: 40px 20px;
   height: 4px;
   width: 90%;
+  user-select: none;
 }
 
 .progress {
@@ -72,6 +74,7 @@ h3 {
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
+  user-select: none;
 }
 
 .duration-wrapper {
