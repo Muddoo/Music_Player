@@ -66,6 +66,7 @@ h3 {
   height: 4px;
   width: 90%;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .progress {
@@ -75,6 +76,7 @@ h3 {
   width: 0%;
   transition: width 0.1s linear;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .duration-wrapper {
@@ -83,6 +85,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Controls */
